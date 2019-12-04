@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Exchanger-app/static/css/main.4f10153c.chunk.css",
+    "main.css": "/Exchanger-app/static/css/main.0a272268.chunk.css",
     "main.js": "/Exchanger-app/static/js/main.a9dcf39c.chunk.js",
     "main.js.map": "/Exchanger-app/static/js/main.a9dcf39c.chunk.js.map",
     "runtime-main.js": "/Exchanger-app/static/js/runtime-main.285ac5d2.js",
@@ -8,9 +8,9 @@
     "static/js/2.d98f0b3e.chunk.js": "/Exchanger-app/static/js/2.d98f0b3e.chunk.js",
     "static/js/2.d98f0b3e.chunk.js.map": "/Exchanger-app/static/js/2.d98f0b3e.chunk.js.map",
     "index.html": "/Exchanger-app/index.html",
-    "precache-manifest.469adbdd565744c7a0fb88142cc5c3c8.js": "/Exchanger-app/precache-manifest.469adbdd565744c7a0fb88142cc5c3c8.js",
+    "precache-manifest.461cf79a6c05c4e8d197bb9e619d030d.js": "/Exchanger-app/precache-manifest.461cf79a6c05c4e8d197bb9e619d030d.js",
     "service-worker.js": "/Exchanger-app/service-worker.js",
-    "static/css/main.4f10153c.chunk.css.map": "/Exchanger-app/static/css/main.4f10153c.chunk.css.map",
+    "static/css/main.0a272268.chunk.css.map": "/Exchanger-app/static/css/main.0a272268.chunk.css.map",
     "static/media/eu.png": "/Exchanger-app/static/media/eu.075aba9c.png",
     "static/media/gb.svg": "/Exchanger-app/static/media/gb.d3ddd602.svg",
     "static/media/pl.svg": "/Exchanger-app/static/media/pl.562edca5.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.285ac5d2.js",
     "static/js/2.d98f0b3e.chunk.js",
-    "static/css/main.4f10153c.chunk.css",
+    "static/css/main.0a272268.chunk.css",
     "static/js/main.a9dcf39c.chunk.js"
   ]
 }
