@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Anton", sans-serif;
+}
+
+body {
+  background-color: #032757;
+}
+
+.container,
+.header,
+.cta-container,
+.currency {
+  display: grid;
+}
+
+.header p,
+.pl-flag,
+.input,
+.flag {
+  justify-self: center;
+  align-self: center;
+}
+
+.container {
+  grid-template-rows: 1fr 1fr;
+  height: 100vh;
+}
+
+.header {
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.logo {
+  font-size: 35px;
+  color: #fff;
+  grid-column: 1/6;
+}
+
+.pl-flag {
+  width: 70px;
+  grid-column: 2/4;
+  grid-row: 2/ 1 span;
+}
+p.pln {
+  color: #fff;
+  grid-column: 3/5;
+  grid-row: 2/ 1 span;
+  font-size: 26px;
+}
+.input {
+  font-size: 20px;
+  padding: 10px 30px;
+  grid-column: 1/6;
+  grid-row: 3/ 1 span;
+  border: none;
+  border-radius: 20px;
+  background-color: #5d8aa6;
+  outline: none;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.cta-container {
+  grid-template-rows: 1fr 1fr 1fr;
+  border-top: 1px solid #ccc;
+}
+
+.currency {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.countries,
+.cash {
+  font-size: 32px;
+  color: #fff;
+  align-self: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.flag {
+  width: 80px;
+}
+
+@media (orientation: portrait) and (min-width: 360px) {
+  .logo {
+    font-size: 45px;
+  }
+
+  .input {
+    padding: 13px 30px;
+    font-size: 25px;
+  }
+
+  .countries,
+  .cash {
+    font-size: 38px;
+  }
+  p.pln {
+    font-size: 30px;
+  }
+
+  .flag {
+    width: 90px;
+  }
+
+  .pl-flag {
+    width: 80px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 414px) {
+  .logo {
+    font-size: 50px;
+  }
+  .input {
+    padding: 13px 30px;
+    font-size: 28px;
+  }
+
+  .countries,
+  .cash {
+    font-size: 44px;
+  }
+  p.pln {
+    font-size: 36px;
+  }
+
+  .flag {
+    width: 106px;
+  }
+
+  .pl-flag {
+    width: 90px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 533px) {
+  .logo {
+    grid-column: 1/3;
+    margin-left: 10px;
+  }
+
+  .pl-flag {
+    grid-column: 1/2;
+    grid-row: 2/-1;
+  }
+
+  p.pln {
+    grid-column: 2/3;
+    grid-row: 2/-1;
+    font-size: 32px;
+  }
+  .input {
+    grid-column: 3/-1;
+    grid-row: 2/3;
+  }
+  .flag {
+    width: 50px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 731px) {
+  .logo {
+    font-size: 44px;
+  }
+
+  .pl-flag {
+    width: 100px;
+  }
+
+  p.pln {
+    font-size: 40px;
+  }
+  .input {
+    font-size: 28px;
+  }
+  .flag {
+    width: 70px;
+  }
+  .countries,
+  .cash {
+    font-size: 40px;
+  }
+}
